@@ -5,6 +5,10 @@ const htmlOutput = document.querySelector('.output')
 htmlInput.addEventListener('input', updateMinMax)
 
 function updateMinMax(e) {
+  if (!e.target.value.length) {
+    return showError('')
+  }
+  
   const soulLevel = Number(e.target.value)
   
   if (isNaN(soulLevel)) {
