@@ -1,0 +1,72 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #222;
+  color: #FFF;
+  height: 100%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5rem;
+}
+
+body {
+  background: url('https://i.ibb.co/9G7FWzs/des-background-2.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding: 0.25em;
+}
+
+.center {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 1em;
+  border-radius: 5px;
+  margin: auto;
+  max-width: 20rem;
+}
+
+h1 {
+  text-align: left;
+  font-size: 0.5em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.output.error {
+  color: #F22;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 0.15rem solid #FFF;
+  font-size: 1em;
+  color: #d99aff;
+  width: 3em;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: inset 0px -3px 0px -1px #d99aff;
+}
+
+.output {
+  margin-top: 0.5em;
+}
+
+.output span {
+  color: #d99aff;
+}
+
+.foot {
+  font-size: 0.45rem;
+  text-align: right;
+  color: #999;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+}
+
+.foot a {
+  color: #d99aff;
+}
