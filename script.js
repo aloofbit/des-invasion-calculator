@@ -1,3 +1,4 @@
+
 const htmlInput = document.querySelector('.soul-level')
 const htmlOutput = document.querySelector('.output')
 htmlInput.addEventListener('input', updateMinMax)
@@ -10,7 +11,7 @@ function updateMinMax(e) {
   }
   
   if (soulLevel <= 0) {
-    showError('Soul level must be greater than 0')
+    return showError('Soul level must be greater than 0')
   }
   
   showRange(soulLevel)
